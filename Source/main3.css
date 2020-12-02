@@ -1,0 +1,49 @@
+  html, body {
+      background-color: rgb(101, 43, 155);
+      display: grid;
+      height: 100%;
+      place-items: center;
+      text-align: center;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(26, 45, 153);
+  }
+
+  .topnav .menu {
+      position: relative;
+      display: flex;
+  }
+  
+  .topnav a {
+    float: initial;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 21px 24px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(143, 42, 130);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2abba8;
+    color: white;
+  }
+
+  .form {
+    width: 500px;
+    display: grid;
+    line-height: 2;
+  }
+
+  table td .hov:hover {
+    color: red;
+  }
+
+ table {
+     font-size: 18px;
+  }
